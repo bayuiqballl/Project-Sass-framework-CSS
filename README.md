@@ -9,3 +9,5 @@ halaman terdiri dari:
 3. page1.html (menggunakan bootstrap)
 4. page2.html (menggunakan Materiallize)
 5. page3.html (menggunakan Bulma)
+
+[link](https://bayuolshopallin0ne.netlify.com/)

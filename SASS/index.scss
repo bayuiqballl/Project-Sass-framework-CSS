@@ -1,0 +1,75 @@
+@import "color-pack";
+
+%flex {
+    margin-right: 70px;
+    margin-bottom: 70px;
+    width: 150px;
+    height: 150px;
+}
+
+@mixin size($width, $heigth) {
+    width: $width;
+    height: $heigth;
+}
+
+body {
+    background-color: #181818;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 10px;
+    background-color: $color-nav;
+
+    li {
+        list-style-type: none;
+    }
+
+    a {
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        color: $color-textWhite;
+        padding: 14px 16px;
+    }
+}
+
+.container {
+    h2 {
+        margin-top: 60px;
+        margin-bottom: 70px;
+        text-align: center;
+        color: $color-textWhite;
+    }
+
+    .all-shop {
+        // background-color: $color;
+        padding-top: 45px;
+        padding-right: 75px;
+        width: 62%;
+        margin: auto;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .item-shop {
+        @extend %flex;
+    }
+
+    .item {
+        @include size(150px, 150px);
+    }
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $color-footer;
+    color: $color-textWhite;
+    text-align: center;
+}

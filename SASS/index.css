@@ -1,1 +1,72 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+.container .item-shop {
+  margin-right: 70px;
+  margin-bottom: 70px;
+  width: 150px;
+  height: 150px;
+}
+
+body {
+  background-color: #181818;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 0;
+  padding: 10px;
+  background-color: #202020;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 14px 16px;
+}
+
+.container h2 {
+  margin-top: 60px;
+  margin-bottom: 70px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.container .all-shop {
+  padding-top: 45px;
+  padding-right: 75px;
+  width: 62%;
+  margin: auto;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.container .item {
+  width: 150px;
+  height: 150px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #202020;
+  color: #FFFFFF;
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */
